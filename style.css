@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #D9B0B0;
+    padding: 5px;
+    color: #011C3B;
+    display: grid;
+    text-align: center;
+}
+
+main{
+    padding: 30px 50px; 
+}
+
+.card{
+    background-color: #E7B2B2;
+    border:1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: #011C3B;
+}
+
+.inputpd{
+    display: grid;
+    margin-bottom: 10px;
+
+}
+main{
+    color: #011C3B;
+}
+
+input{
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+button{
+    border:0;
+    padding: 10px;
+    color: antiquewhite;
+    background-color: #011C3B;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all ease 0.5s;
+    cursor: pointer;
+
+
+}
+
+button:hover{
+    background-color: #1E0180;
+}
+
+.conteudo{
+    margin-top: 18px;
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: #ccc;
+}
+
+table th{
+    background-color: #011C3B;
+    padding: 1px;
+    color: aliceblue;
+
+}
+
+table td{
+    padding:1px;
+}
+
+table td img{
+    width: 50px;
+    cursor: pointer;
+
+
+}
